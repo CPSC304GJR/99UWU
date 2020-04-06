@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Traveller bookings page</title>
+    <link rel="stylesheet" type="text/css" href="travellermain.css">
 </head>
 <body>
-Hi <?php echo $_GET['name']; ?>! <br>
-Here is your booking history!
+<h1> Hi <?php echo $_GET['name']; ?>! </h1>
+<h3> Here is your booking history! </h3>
 </body>
 </html>
 <?php

@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <title>Admin starter</title>
     <link rel="stylesheet" type="text/css" href="adminmain.css">
-
 </head>
 <body>
 <div class="header">

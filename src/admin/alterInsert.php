@@ -1,5 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin insert</title>
+    <link rel="stylesheet" type="text/css" href="adminmain.css">
+</head>
 
+<body>
 <?php
 $query = $_POST['query'];
 $values = $_POST['values'];
@@ -29,5 +36,5 @@ displayQueryResults($conn, "SELECT * FROM ".$table);
 CloseCon($conn);
 ?>
 <input type="submit" value="Menu" onclick="window.location.href='main.html'"/>
-
+</body>
 </html>

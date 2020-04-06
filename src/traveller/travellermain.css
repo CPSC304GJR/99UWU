@@ -1,9 +1,20 @@
-.body {
+body {
     background-image: url("https://images.pexels.com/photos/2007401/pexels-photo-2007401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
+
+.header {
+    padding: 10px;
+    text-align: center;
+    font-family: Bahnschrift;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+}
+
 /* Style the header */
 .jon1 {
     margin-top: 20px;
@@ -136,13 +147,4 @@
 }
 
 
-.header {
-    margin-top: 20px;
-    text-align: left;
-    font-family: Bahnschrift;
-    font-size:35px;
-    color: white;
-    width: 45%;
-    text-aligh:center;
-    left-margin: 30px;
-}
+

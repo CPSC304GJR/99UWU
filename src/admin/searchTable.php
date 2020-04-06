@@ -15,7 +15,6 @@ include 'retrieve.php';
 <form action="searchColumn.php" method="post">
     <h1> Which tables do you want to look at?</h1>
     <h3>Please refer to the options listed below to make your choice. </h3>
-    <p>
     <?php $tables = retrieve($sql);
     while ( $table = mysqli_fetch_array($tables) ):
         echo $table[0]; ?>

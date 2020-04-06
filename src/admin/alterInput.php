@@ -1,8 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
 $table = $_POST['table'];
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Admin starter</title>

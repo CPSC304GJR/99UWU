@@ -4,7 +4,8 @@
 <?php
 $cond = $_POST['cond'];
 echo $cond."<br>";
-$sql = "SELECT t.Username, COUNT(*) as num_bookings FROM Traveller t, BookedListing b WHERE t.Username = b.Username
+$sql = "SELECT t.Username, COUNT(*) as num_bookings 
+    FROM Traveller t, BookedListing b WHERE t.Username = b.Username
 GROUP BY t.Username HAVING COUNT(*) = (SELECT $cond(sq1.counted) 
 FROM (SELECT COUNT(*) as counted FROM BookedListing GROUP BY Username) sq1)";
 include "../display.php";
